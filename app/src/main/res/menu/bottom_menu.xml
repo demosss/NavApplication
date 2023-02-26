@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:title="@string/menu_map"
+        android:icon="@drawable/ic_map"
+        android:id="@+id/menu_map"
+        android:orderInCategory="10"/>
+    <item
+        android:title="@string/menu_points"
+        android:icon="@drawable/ic_points"
+        android:id="@+id/menu_points"
+        android:orderInCategory="20"/>
+    <item
+        android:title="@string/menu_navigation"
+        android:icon="@drawable/ic_satellite"
+        android:id="@+id/menu_navigation"
+        android:orderInCategory="30"/>
+    <item
+        android:title="@string/menu_orientation"
+        android:icon="@drawable/ic_orientation"
+        android:id="@+id/menu_orientation"
+        android:orderInCategory="40"/>
+    <item
+        android:title="@string/menu_settings"
+        android:icon="@drawable/ic_settings"
+        android:id="@+id/menu_settings"
+        android:orderInCategory="50"/>
+
+</menu>
